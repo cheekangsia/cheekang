@@ -148,27 +148,27 @@ include "reusable_components/user_session.php"
         <section class="container section">
             <div class="text-decoration-underline py-4">Overview</div>
             <div class="d-flex justify-content-evenly align-items-between pb-md-0 pb-3 row">
-                <div class="card border border-0 col-md-2 col-sm-5 col-12 d-flex justify-content-center" style="background-color:#F7B800">
+                <div class="card border border-0 col-md-2 col-sm-5 col-12 d-flex justify-content-center" style="background-color:#ffe0a5">
                     <div class="text-white text-center py-3">
                         <div>Pending</div>
                         <h3><?php echo $pending_status ?></h3>
                     </div>
                 </div>
 
-                <div class="card border border-0 col-md-2 col-sm-5 col-12 d-flex justify-content-center" style="background-color:#F9D423">
+                <div class="card border border-0 col-md-2 col-sm-5 col-12 d-flex justify-content-center" style="background-color:#ffe0a5">
                     <div class="text-white text-center">
                         <div>Keep In View</div>
                         <h3><?php echo $kiv_status ?></h3>
                     </div>
                 </div>
 
-                <div class="card border border-0 col-md-2 col-sm-5 col-12 d-flex justify-content-center" style="background-color:#4CAF50">
+                <div class="card border border-0 col-md-2 col-sm-5 col-12 d-flex justify-content-center" style="background-color:#ffe0a5">
                     <div class="text-white text-center">
                         <div>Active</div>
                         <h3><?php echo $active_status ?></h3>
                     </div>
                 </div>
-                <div class="card border border-0 col-md-2 col-sm-5 col-12 d-flex justify-content-center" style="background-color:#00bcd4">
+                <div class="card border border-0 col-md-2 col-sm-5 col-12 d-flex justify-content-center" style="background-color:#ffe0a5">
                     <div class="text-white text-center">
                         <div>Closed</div>
                         <h3><?php echo $closed_status ?></h3>
